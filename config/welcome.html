@@ -1,40 +1,74 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>BeerDeCoded</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="/static/style/base.css" type="text/css" />
+    <title>Beer Decoded</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://rawgit.com/jxtx/galaxy-bootstrap/master/dist/galaxy_bootstrap.css">
+    <link rel="stylesheet" href="./custon.css">
 </head>
-<body>
+<body style="margin: 0">
     <div class="document">
-        <body style="margin: 0">
-        <div class="jumbotron">
-            <div class="container">
-                <img src="beerdecoded_logo.png" alt="BeerDeCoded" style="padding:0;margin:0;width:20%;min-width:350px; vertical-align:top;"/>                
-            </div>
-            <br>
-            <div class="container">
-                <h2>Hello!</h2>
-                <p>
-                    <a target="_parent" href="../../../tours/" class="btn btn-default btn-xs">Learn how to use</a>
-                    <a target="_parent" href="../../../workflows/" class="btn btn-default btn-xs">Run your first analyses</a>
-                </p>
-            </div>
-        </div>
         <div class="container">
-            <p class="lead">
-            <a href="http://www.genome.beer/">BeerDeCoded</a> is a participatory project investigate the microbial composition of a collection of commercial beers. The goal of the BeerDeCoded project is not only to extend the scientific knowledge about beer, but also to improve the public understanding of issues related to personal geno- mics, food technology, and their role in society.
+          <div class="row" style="margin-left: 0px">
+              <img src="beerdecoded_logo.png" alt="BeerDeCoded" style="padding:0;margin:0;margin-left:50px;width:20%;min-width:350px; vertical-align:top;"/>
+          </div>
+          <div class="row" style="margin-left: 0px">
+              <h2>Decode your beer here and find which organisms are hidding there!</h2>
+          </div>
+          <div class="row" style="margin-left: 0px">
+               <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVEhLvdVPKwVRHMbxIYpSUlhiYckLICmssaFuQrJXNkJW3oGIvABWytLCC1BSWCqUv9khG5J/36d7jk43c5255/DUp/ub6c59pjkzdxLPlJvPqKnEIq7xiD10IFpWsYV6lKEPV2hDcBpwgyr0Y9nsG8MGgtONnfyYnOMT02jFEYLTjAtU4BIqmMMQthElm2iCW7CCLkSJrn813AKtQ/S4BX8St6AXt5iBMgzdZUEpXAPNx2g38wcaoYdQxTXIFFswjzUzq0CLrVl0M5yYeQqpUXttfvyOLTjDnZmfsW9maYGecs2pa9WJJ+jgCe0wsQXFHEKXSnNqwRLsAe+YhOJT4Eot6MEb7BdtSbQCJYfCkldn20fRAmUEbklWvxYoISWz8MooSinRyXlnHFlKHlCHTBnEPX76QdcLBlBS9F5ewC5OobecdYB16L/pv5MkX5P2xJMSnjcjAAAAAElFTkSuQmCC">
+                 Learn how to decode your beer with our interactive tours</h4>
+               <div class="btn-group-vertical" style="margin-bottom:10px; padding-left:50px; text-decoration: none;">
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Learn about the interface</a>
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Import local data</a>
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Import data from SRA</a>
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Extract fungi of my beer using ITS</a>
+              </div>
+          </div>
+          <div class="row" style="margin-left: 0px">
+               <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADLSURBVEhL7dQhCgJBFIfxPYJBxCSITbBYLCaDRWxaPIBg8QxGT2Cw261i2RMYvIHgAbyBfn9HDMPbHRFHRPaDHw77woNh1yTQDNeAFt6uWBAs+oIh9gF1fKw2Gu4YpxV0bdH67QUlLAMO2HnPfAuY1XDGNEeKjffMd4GZFhzdMbNXruiPF1SwdsfM5tDXndf28ftsnKEDpS/XmksZagBr3of5ByZ6W5SuxJpLF+oEa36/cmsgxQL5zgLrc5ceVBPWXKpQE1jzEWKWJDd5hMRJbxz0TAAAAABJRU5ErkJggg==">
+                  Run one of our workflow to decode your beer</h4>
+               <div class="btn-group-vertical" style="margin-bottom:10px; padding-left:50px; text-decoration: none;">
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Extract fungi using ITS</a>
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Extract bacteria using 16S</a>
+                  <a href="" class="btn btn-default" style="text-decoration: none; width: 300px">Extract any micro-organisms using shotgun data</a>
+               </div>
+          </div>
+          <div class="row" style="margin-left: 0px">
+               <h4><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFJSURBVEhL7dVPKwVhFMfxB2GBREr5t5Rka6Mkl7IQL8BKSNlYEF6AtZ2UbBXZWdx3oLwBFpYWslA21uL7uxw9c5rbjDuzUX71qWk6c899Zs4zE/7zm6zgElcFnWMKiXThFYuYL2gV90hkBI9fh2Ec/qJJKNtYQjvm4Ov60A37rZ/EDXbgl30M5QRbGMIFfJ2aZDaYwWZkFBZr0IkNWI2eXzOUzAbrOI3MwmIN+qFVWc0RWqFkNljGgaN/q1iDXuzD102glAY92IOvy9Ug7y3ScUO3aBpZD7kDa2joIe/Cj58f00Gk7fpcYzqGePOI32htqMDX1d1omusXlPWquEMimoonfJTkBi2opQnXSCss4hC1aJ7TCswtBqBVxjRdz0i7Rt6xgPD2faKeM/gNZapIu8boVoWH6ETZ9PEJw4jfjGXRNOlD9qcTwifvctMycbDOXQAAAABJRU5ErkJggg==">
+                 Follow one of our tutorial to go deeper into metagenomics analyses</h4>
+               <div class="btn-group-vertical" style="margin-bottom:10px; padding-left:50px; text-decoration: none;">
+                  <a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html" class="btn btn-default" style="text-decoration: none; width: 300px">16S Microbial Analysis with Mothur</a>
+                  <a href="https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html" class="btn btn-default" style="text-decoration: none; width: 300px">Analyses of metagenomics data - The global picture</a>
+               </div>
+          </div>
+          <div class="jumbotron" style="background-color: #ffe92f; margin-top: 20px">
+            <p style="margin-bottom: 0px; font-size: 13px"><a href="http://www.genome.beer/">BeerDeCoded</a> is a participatory
+            project investigate the microbial composition of a collection of commercial
+            beers. The goal of the BeerDeCoded project is not only to extend the
+            scientific knowledge about beer, but also to improve the public
+            understanding of issues related to personal genomics, food technology,
+            and their role in society.</p>
+            <img src="workflow.png" alt="BeerDeCoded-workflow" style="padding:0;margin:20px 20px 20px 50px;width:80%;min-width:350px; vertical-align:top;"/>
 
-            For the data analysis, the BeerDeCoded project is using <a href="https://galaxyproject.org/">Galaxy</a>, inside a <a href="http://bgruening.github.io/docker-galaxy-stable/">Galaxy Docker flavor</a> based on <a href="http://asaim.readthedocs.io/en/latest/">ASaiM</a>.
+
+            <p style="margin-bottom: 0px; font-size: 13px">For the data analysis, the BeerDeCoded project is using
+              <a href="https://galaxyproject.org/">Galaxy</a>, inside a
+              <a href="http://bgruening.github.io/docker-galaxy-stable/">Galaxy
+                Docker flavor</a> based on
+                <a href="http://asaim.readthedocs.io/en/latest/">ASaiM</a>.</p>
             </p>
-
+          </div>
+          <div class="row">
             <footer>
-                <a target="_blank" class="reference" href="http://galaxyproject.org/">
+                <p><a target="_blank" class="reference" href="http://galaxyproject.org/">
                 Galaxy</a> is an open platform for supporting data intensive
                 research. Galaxy is developed by <a target="_blank" class="reference" href="http://wiki.galaxyproject.org/GalaxyTeam">The Galaxy Team</a>
-                with the support of  <a target="_blank" class="reference" href="https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTORS.md">many contributors</a>.
+                with the support of  <a target="_blank" class="reference" href="https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTORS.md">many contributors</a>.</p>
+
+                <p><a href="https://icons8.com">Icon pack by Icons8</a></p>
             </footer>
+          </div>
         </div>
     </div>
 </body>
